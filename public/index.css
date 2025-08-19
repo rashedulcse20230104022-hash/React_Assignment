@@ -1,0 +1,203 @@
+html, body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/*Background-Photo*/
+.Background-theme{
+  height: 500px;
+  width: 100%;
+  object-fit: cover;
+
+}
+
+/*Background-Theme*/
+#port{
+  height: 38px;
+  width: 100%;
+  object-fit: cover;
+  background-color: #ccc;
+}
+
+/*SlideBar-Button*/
+#side-button:hover {
+  
+  background-color: #f0f2f5;  
+}
+
+
+/*Side-Bar Design*/
+#sidebar-logo{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin-right: 10px;
+
+}
+
+#sidebar-name{
+    width: 50px;
+    height: 50px;
+    margin-right: 10px;
+
+}
+
+#sidebar-profile-icon,
+#sidebar-myarticle-icon {
+  font-size: 22px;     
+  vertical-align: middle;
+  margin-right: 10px;   
+  cursor: pointer;      
+}
+
+
+#sidebar-profile-name,
+#sidebar-myarticle-name {
+  font-size: 16px;
+  vertical-align: middle;
+}
+
+
+.sidebar-btn {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  padding: 10px 14px;
+  margin-bottom: 8px;
+  background-color: transparent;  
+  border: none;
+  border-radius: 6px;
+  font-size: 16px;
+  text-align: left;
+  cursor: pointer;
+  
+}
+
+.sidebar-btn:hover {
+  background-color: #f0f2f5;  
+}
+
+
+
+
+
+
+
+
+
+
+/*table Design*/
+.content {
+  margin-left: 400px;   
+  padding: 20px;
+}
+
+
+#table-design {
+  width: 100%;
+  max-width: 900px;
+  border-collapse: collapse;
+  background: #fff;         
+  border: 2px solid #333;   
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+
+#table-design th {
+  text-align: left;
+  padding: 12px;
+  background: #f0f0f0;
+  border-bottom: 2px solid #333;
+}
+
+
+#table-design td {
+  padding: 12px;
+  border-bottom: 1px solid #ccc;
+}
+
+
+/*Pagination Design*/
+.pagination {
+  justify-content: center;
+}
+
+
+
+
+
+/*Profile Design*/
+#image{
+  height: 150px;
+  height: 150px;
+  margin-left: 500px;
+  margin-top: 50px;
+
+}
+
+#profile-name{
+  font-size: 30px;     
+  font-weight: 600;    
+  color: #333;        
+  margin-left: 30px;
+}
+
+
+
+
+
+
+
+
+/*Profile-Information Design*/
+.profile-form {
+  width: 910px;             
+  margin: 20px auto;
+  padding: 20px;
+  background: #f9f9f9;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  font-family: Arial, sans-serif;
+
+ 
+  display: grid;
+  grid-template-columns: 1fr 1fr; 
+  gap: 14px 16px;               
+}
+
+
+.profile-form .full {
+  grid-column: 1 / -1; 
+}
+
+
+.form-group {
+  display: flex;
+  flex-direction: column;
+}
+
+.form-group label {
+  font-weight: 600;
+  margin-bottom: 6px;
+  color: #333;
+}
+
+.form-group input {
+  padding: 10px;
+  font-size: 14px;
+  border: 1px solid #cfcfcf;
+  border-radius: 6px;
+  background: #fff;
+}
+
+
+
+
+
+
+
+
+
+
